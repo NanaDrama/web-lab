@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:wght@300&display=swap');
+
+body{
+    font-family: Comfortaa;
+    margin: 0;
+    background-color: rgb(35, 25, 43);
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+p{
+    color: rgb(148, 150, 150);
+}
+
+.header{
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

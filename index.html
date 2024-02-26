@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Лабораторна робота</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Лаболаторні роботи JS</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
+    <header class="header">
+      <img src="logo.png" alt="logo">
+      <h1 class="header__title">Лаболаторні роботи JS</h1>
+      <nav>
+        <div class="header__nav">
+          <a href="#">Task1</a>
+          <a href="#">Task2</a>
+          <a href="#">Task3</a>
+        </div>
+        <p class="header__name">Kostrykova Anastasiia</p>
+      </nav>
+    </header>
+    <main>
+      <div class="task1">
+        <h2 class="task1__title">Task1</h2>
+        <h3 class="task1__task">Переведення величин</h3>
+        <div class="task1__sentence">
+          <p class="task1__text">Перевести</p>
+          <select name="size">
+            <option value="1">Біт</option>
+            <option value="2">Байт</option>
+            <option value="3">Кб</option>
+            <option value="4">Мб</option>
+            <option value="5">Гб</option>
+            <option value="6">Тб</option>
+          </select>
+          <p class="task1__text"> у </p>
+          <select name="size">
+            <option value="1">Біт</option>
+            <option value="2">Байт</option>
+            <option value="3">Кб</option>
+            <option value="4">Мб</option>
+            <option value="5">Гб</option>
+            <option value="6">Тб</option>
+          </select>
+        </div>
+        <div class="task1__form">
+          <form class="task1__form" action='#'>
+            <input type='number' name='size1' value="0">
+            <input type='submit' value='Перевести'>
+            <output class="task1__button" name="result"></output>
+          </form> 
+        </div>
+        
+      </div>
+
+    </main>
 	<script src="index.js"></script>
   </body>
 </html>
