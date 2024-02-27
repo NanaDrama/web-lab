@@ -1,26 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:wght@300&display=swap');
+@import url(styles.css/nav.css);
+
+
 
 body{
     font-family: Comfortaa;
-    margin: 0;
-    background-color: rgb(35, 25, 43);
+    background-color: rgb(28, 18, 58);
+}
+.container-fluid{
+    background-color: rgb(43, 15, 107);
+    padding:  15px 0 10px 0;
 }
 
-h1,
-h2,
-h3 {
-  color: white;
+
+.navbar{
+    padding: 0;
+}
+.navbar-toggler:active{
+    border-width:0 ;
+}
+.navbar-toggler{
+    border-width:0 ;
 }
 
-p{
-    color: rgb(148, 150, 150);
-}
 
-.header{
-    background-color: black;
-    margin: 0;
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+.title {
+    position: relative;
+    margin-left: 110px;
+  }
+  
+  .title span {
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 5px;
+  }
+  
+  .title span:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 0.3px rgb(162, 128, 255);
+  }
+  
+  .title span:nth-child(2) {
+    color: rgb(162, 128, 255);
+    -webkit-text-stroke: 1px rgb(125, 78, 253);
+    animation: uiverse723 3s ease-in-out infinite;
+  }
+  
+  @keyframes uiverse723 {
+    0%, 100% {
+      clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
+       54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+  
+    50% {
+      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
+       51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+  }
