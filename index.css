@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:wght@300&display=swap');
 @import url(styles.css/nav.css);
+@import url(styles.css/about.css);
+@import url(styles.css/task1.css);
 
 
 
@@ -12,7 +14,13 @@ body{
     padding:  15px 0 10px 0;
 }
 
-
+h1, h2{
+  color: rgb(162, 128, 255);
+  font-weight: 800;
+}
+p{
+  color: #d0c8ff;
+}
 .navbar{
     padding: 0;
 }
@@ -60,3 +68,11 @@ body{
        51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
     }
   }
+
+  .block{
+    background-color:  rgb(43, 15, 107);
+    margin: 40px 15px;
+    padding: 20px 15px;
+    border-width: 1px;
+    border-radius: 30px;
+}

@@ -1,0 +1,52 @@
+.about{
+    background-color:  rgb(43, 15, 107);
+    margin: 40px 15px;
+    padding: 20px 15px;
+    border-width: 1px;
+    border-radius: 30px;
+}
+
+
+.about__enjoy {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    margin: 15px auto;
+    border: 0px solid;
+    background-image: linear-gradient(45deg,blue,#c367f8,rgb(139, 212, 255));
+    background-size: 500% 400%;
+    color: white;
+    border-radius: 50px;
+    transition: 0.6s all;
+   }
+   
+   .about__enjoy:hover {
+    background-position: 75% 50%;
+    transform: perspective(100px)
+   }
+   
+   .about__enjoy:active {
+    transform: scale(0.95);
+    transition: 0.1s;
+   }
+
+   .about__foto{
+    width: 80%;
+    align-items: center;
+    margin: 20px 10%;
+   }
+.about__title{
+    font-weight: 900;
+    text-align: center;
+    font-size: 42px;
+}
+   .about__parahraph{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+   }
