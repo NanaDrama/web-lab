@@ -37,8 +37,8 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="btn" href="#">
-                <strong>Task 1</strong>
+              <a class="btn" href="#password__g">
+                <strong>Password Generator</strong>
                 <div id="container-stars">
                   <div id="stars"></div>
                 </div>
@@ -119,10 +119,48 @@
           </div>  
         </div>  
       </div>
+      <!--Task2-->
+      <div id="password__g" class="generate">
+        <h2 class="generate__title">Generate a password</h2>
+        <div class="result">
+          <div class="result__title field-title">Generated Password</div>
+          <div class="result__info right">click to copy</div>
+          <div class="result__info left">copied</div>
+          <div class="result__viewbox" id="result">CLICK GENERATE</div>
+          <button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
+      </div>
+      <div class="length range__slider" data-min="4" data-max="32">
+          <div class="length__title field-title" data-length='0'>length:</div>
+          <input id="slider" type="range" min="4" max="32" value="16" />
+      </div>
+
+      <div class="settings">
+          <span class="settings__title field-title">settings</span>
+          <div class="setting">
+              <input type="checkbox" id="uppercase" checked />
+              <label for="uppercase">Include Uppercase</label>
+          </div>
+          <div class="setting">
+              <input type="checkbox" id="lowercase" checked />
+              <label for="lowercase">Include Lowercase</label>
+          </div>
+          <div class="setting">
+              <input type="checkbox" id="number" checked />
+              <label for="number">Include Numbers</label>
+          </div>
+          <div class="setting">
+              <input type="checkbox" id="symbol" />
+              <label for="symbol">Include Symbols</label>
+          </div>
+        </div>
+      <button class="btn__generate" id="generate">Generate Password</button>
+      <img class="generator__foto" src="password.svg" alt="password">
+      </div>
     </main>
   </body>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="calculator.js"></script>  
+<script src="generate.js"></script>  
 </body>
 </html>
