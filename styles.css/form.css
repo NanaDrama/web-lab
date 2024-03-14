@@ -1,36 +1,46 @@
+.accordion__js{
+  background-color:  rgb(43, 15, 107);
+    margin: 40px 15px;
+    padding: 20px 15px;
+    border-width: 1px;
+    border-radius: 30px;
+}
+.accordion__title{
+  font-size: 30px;
+    font-family: Comfortaa;
+    text-align: center;
+    margin: 15px auto 40px auto;
+}
+
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: rgba(181, 141, 245, 0.541);
+  color: #d0c8ff;
+  font-size: 18px;
+  width: 90%;
+  align-items: center;
+  margin: 10px 5%;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
-  font-size: 15px;
-  transition: 0.4s;
 }
-
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
 .panel {
   padding: 0 18px;
-  background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  font-size: 13.5px;
+  font-weight: 400;
+  text-align: justify;
+  transition: max-height 0.3s ease-out;
+}
+.task3{
+  background-color: rgb(43, 15, 107);
+}
+.accordion__foto{
+  width: 90%;
+  align-items: center;
+  margin: 20px 5%;
+  border-width: 1;
+  border-radius: 20px;
 }
