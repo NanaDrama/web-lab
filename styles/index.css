@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:wght@300&display=swap');
-@import url(styles.css/nav.css);
-@import url(styles.css/about.css);
-@import url(styles.css/task1.css);
-@import url(styles.css/generator.css);
-@import url(styles.css/form.css);
+@import url(nav.css);
+@import url(about.css);
+@import url(task1.css);
+@import url(generator.css);
+@import url(form.css);
 
 
 
